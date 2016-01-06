@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -8,63 +7,106 @@
     <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
     <link href="../Content/app.css" rel="stylesheet" />
 </head>
-
 <body>
     <header class="container-fluid">
         <h1>Header</h1>
     </header>
     <div class="container-fluid">
         <div class="row">
+            <div class="right-Column right-Column-top visible-md">
+                <content>
+                    <a href="https://dknigh00.github.io">
+                        <img class="rightSideImg" src="../Images/GitHub-Mark-120px-plus.png" />
+                        <h7>My GitHub</h7>
+                    </a>
+                    <a href="https://dknigh00.github.io">
+                        <img class="rightSideImg" src="../Images/Icon-Python.png" />
+                        <h7>My Python</h7>
+                    </a>
+                    <a href="https://dknigh00.github.io">
+                        <img class="rightSideImg" src="../Images/html5-css3.png" />
+                        <h7>My HTML/CSS</h7>
+                    </a>
+                    <a href="https://dknigh00.github.io">
+                        <img class="rightSideImg" src="../Images/Logos-Java-Coffee-Cup-Logo-Copyrighted-icon.png" />
+                        <h7>My Java</h7>
+                    </a>
 
-            <section class="center-Column col-sm-9 col-md-8 col-sm-push-3 col-md-push-2">
-                <article>
-                    <p>
-                        <h3>Extra Small device</h3>
-                        This is because mobile first we have the page go from header to footer. with the left column at <code>col-xs-12</code> So for extra small and small sites the page renders this way.
-                        <br /><code>
-                            ............<br />
-                            .....12.....<br />
-                            :::::12:::::<br />
-                            |||||12|||||<br />        
-                        </code>
-                    </p>
-                    <p>
-                        <h3>Small device</h3>
-                        For a small tablet the page will shift to put the left aside with <code>col-md-3</code> and the main section to the right with <code>col-md-9</code>.
-                        <br /> <code>
-                            :::.........<br />
-                            :3:...9.....<br />
-                            :::.........<br />
-                            |||||12|||||<br />
-                        </code>
+                    <br />Top Bar .I.E (Duplicate of the Right Side)
+                </content>
+            </div>
+                <section class="center-Column col-sm-9 col-lg-8 col-sm-push-3 col-lg-push-2">
+                    <article>
+                        <p>
+                            <h3>Extra Small device</h3>
+                            This is because mobile first we have the page go from header to footer. with the left column at <code>col-xs-12</code> So for extra small and small sites the page renders this way.
+                            <br /><code>
+                                ............<br />
+                                .....12.....<br />
+                                :::::12:::::<br />
+                                |||||12|||||<br />
+                            </code>
+                        </p>
+                        <p>
+                            <h3>Small device</h3>
+                            For a small tablet the page will shift to put the left aside with <code>col-md-3</code> and the main section to the right with <code>col-md-9</code>.
+                            <br /> <code>
+                                :::.........<br />
+                                :3:...9.....<br />
+                                :::.........<br />
+                                |||||12|||||<br />
+                            </code>
 
-                    </p>
-                    <p>
-                        <h3>Medium device or larger</h3>
-                        Going to a full sized tablet or desktop the page renders by the section going from <code>col-sm-9</code> to <code>col-md-8</code> and pushes over 2. well the left section pulls 8.
-                        <br /> <code>
-                            ::........||<br />
-                            2:....8...|2<br />
-                            ::........||<br />
-                            ::........||<br />
-                        </code>
-                    </p>
-                </article>
-            </section>
+                        </p>
+                        <p>
+                            <h3>Medium device or larger</h3>
+                            Going to a full sized tablet or desktop the page renders by the section going from <code>col-sm-9</code> to <code>col-lg-8</code> and pushes over 2. well the left section pulls 8.
+                            <br /> <code>
+                                ::........||<br />
+                                2:....8...|2<br />
+                                ::........||<br />
+                                ::........||<br />
+                            </code>
+                        </p>
+                    </article>
+                </section>
+            <aside class="left-Column col-sm-3 col-lg-2 col-sm-pull-9 col-lg-pull-8">
+                <content>
 
-            <aside class="left-Column col-sm-3 col-md-2 col-sm-pull-9 col-md-pull-8">
-                Left Side
+                <br /><br /><br /><br /><br /><br />Left Side
+                    </content>
             </aside>
+            <aside class="right-Column col-xs-12 col-md-2 hidden-md">
+                <content>
+                    <a href="https://dknigh00.github.io">
+                        <img class="rightSideImg" src="../Images/GitHub-Mark-120px-plus.png" />
+                        <h7>My GitHub</h7>
+                    </a>
+                    <a href="https://dknigh00.github.io">
+                        <img class="rightSideImg" src="../Images/Icon-Python.png" />
+                        <h7>My Python</h7>
+                    </a>
+                    <a href="https://dknigh00.github.io">
+                        <img class="rightSideImg" src="../Images/html5-css3.png" />
+                        <h7>My HTML/CSS</h7>
+                    </a>
+                    <a href="https://dknigh00.github.io">
+                        <img class="rightSideImg" src="../Images/Logos-Java-Coffee-Cup-Logo-Copyrighted-icon.png" />
+                        <h7>My Java</h7>
+                    </a>
 
-            <aside class="right-Column col-xs-12 col-md-2">
-                Right Side
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br /><p>Responses at anything greater than 1460 px or anything less than 991px</p>
+                    <br />Right Side
+                </content>
             </aside>
+            </div>
         </div>
-    </div>
-    <footer class="container-fluid">
-        <h1>Footer</h1>
-    </footer>
-
+        <footer class="container-fluid">
+            <h1>Footer</h1>
+        </footer>
 </body>
-
 </html>

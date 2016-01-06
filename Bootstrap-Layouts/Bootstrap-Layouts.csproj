@@ -72,6 +72,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\GitHub-Mark-120px-plus.png" />
+    <Content Include="Images\html5-css3.png" />
+    <Content Include="Images\Icon-Python.png" />
+    <Content Include="Images\Logos-Java-Coffee-Cup-Logo-Copyrighted-icon.png" />
     <Content Include="Layout-HideShowDiv\index2.html" />
     <Content Include="Layout-multiColumn\index.html" />
     <Content Include="packages.config" />
@@ -103,9 +107,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
