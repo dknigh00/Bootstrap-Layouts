@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href="../Content/app.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="container-fluid">
+        <h1>Header</h1>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+
+            <section class="col-sm-9 col-md-8 col-sm-push-3 col-md-push-2">
+                <article>
+                    <p>
+                        <h3>Extra Small device</h3>
+                        This is because mobile first we have the page go from header to footer. with the left column at col-xs-12 then col-md-2. So for extra small and small sites the page renders this way.
+                        <xmp>
+                            |||||12|||||
+                            ............
+                            .....12.....
+                            ||||||||||||
+                            |||||12|||||
+                        </xmp>
+                    </p>
+                </article>
+                <article>
+                    <p>
+                        <h3>Small device</h3>
+                        For a small tablet the page will shift to put the left aside with col-md-3 and the main section to the right with col-md-9.
+                        <xmp>
+                            |||||12|||||
+                            |||.........
+                            |3|....9....
+                            |||.........
+                            |||||12|||||
+                        </xmp>
+
+                    </p>
+                </article>
+                <article>
+                    <p>
+                        <h3>Medium device or larger</h3>
+                        Going to a full sized tablet or desktop the page renders by the section going from col-sm-9 to col-md-8 and pushes over 2. well the left section pulls 8.
+                        <xmp>
+                            |||||12|||||
+                            ||........||
+                            2|....8...|2
+                            ||........||
+                            |||||12|||||
+                        </xmp>
+                    </p>
+                </article>
+            </section>
+
+            <aside class="col-sm-3 col-md-2 col-sm-pull-9 col-md-pull-8">
+                Left Side col-sm-2
+            </aside>
+
+            <aside class="col-xs-12 col-md-2">
+                Right Side col-sm-2
+            </aside>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <h1>Footer</h1>
+    </footer>
+
+</body>
+
+</html>

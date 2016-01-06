@@ -85,6 +85,7 @@
     <Content Include="Images\range-4.png" />
     <Content Include="Images\range-5.png" />
     <Content Include="Images\snowboarder.jpg" />
+    <Content Include="Layout-HideShowDiv\index2.html" />
     <Content Include="Layout-multiColumn\index.html" />
     <Content Include="packages.config" />
     <Content Include="readme.rtf" />
