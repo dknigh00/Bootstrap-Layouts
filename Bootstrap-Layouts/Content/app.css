@@ -4,19 +4,23 @@
 }
 
 header,footer{
-    background-color: #333;
-    color: #ddd;
+    background-color: #0094ff;
+    color: #eee;
     padding: 20px;
     text-align: center;
 }
 
 aside {
-    background-color: #f7f7f7;
+    background-color: #e0f6ff;
     text-align: center;
     padding-top: 40px;
 }
 
-xmp{
+.center-Column{
+    text-align:center;
+}
+
+.center-Column xmp{
   align-content: center
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
   margin-bottom: 10px;
@@ -28,3 +32,13 @@ xmp{
   padding-bottom: 20px!ie7;
   max-height: 600px;
 }
+
+.left-Column{
+   
+}
+
+.right-Column{
+ background-color: #0094ff;
+ color: #eee;
+}
+
